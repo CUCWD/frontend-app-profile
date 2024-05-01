@@ -1,3 +1,13 @@
+// Sticky Footer - Profile only
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  & > main {
+    flex-grow: 1;
+  }
+}
+
 .word-break-all {
   word-break: break-all !important;
 }
